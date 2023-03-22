@@ -3,6 +3,7 @@ import pygame
 from data.classes.Board import Board
 
 pygame.init()
+pygame.display.set_caption('Chess')
 
 WINDOW_SIZE = (600, 600)
 screen = pygame.display.set_mode(WINDOW_SIZE)
